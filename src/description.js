@@ -2,7 +2,7 @@
 import React from "react";
 
 const Description = ({ description }) => {
-  return <p>Description du produit : {description}</p>;
+  return <p>{description}</p>;
 };
 
 export default Description;
